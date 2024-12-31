@@ -1,0 +1,31 @@
+Linha 1: # 2024-12-30 21:50:21 by RouterOS 7.16.2
+Linha 2: # software id = B2XP-23U7
+Linha 3: #
+Linha 4: Flags: D - DYNAMIC
+Linha 5: Columns: LIST, ADDRESS, CREATION-TIME
+Linha 6: #   LIST                               ADDRESS             CREATION-TIME
+Linha 7: ;;; Lista de IPs bloqueados por escaneamento
+Linha 9: 1   Blocked                            123.45.67.0/24      2024-11-19 19:58:35
+Linha 10: 2   Blocked                            0.0.0.0/8           2024-11-19 19:58:35
+Linha 11: 3   Cloud-Microtik                     cloud.mokrotik.com  2024-11-27 10:49:14
+Linha 12: ;;; Rede local temporria para suporte
+Linha 13: 4   suporte                            192.168.0.0/24      2024-12-09 09:37:17
+Linha 14: ;;; Auto identificao [RFC 3330]
+Linha 15: 5   bogons                             0.0.0.0/8           2024-12-09 09:39:29
+Linha 16: ;;; Loopback [RFC 3330]
+Linha 17: 6   bogons                             127.0.0.0/8         2024-12-09 09:39:29
+Linha 18: ;;; Link Local [RFC 3330]
+Linha 19: 7   bogons                             169.254.0.0/16      2024-12-09 09:39:29
+Linha 20: ;;; Reservado - IANA - TestNet1
+Linha 21: 8   bogons                             192.0.2.0/24        2024-12-09 09:39:29
+Linha 22: ;;; Anycast de retransmisso 6to4 [RFC 3068]
+Linha 23: 9   bogons                             192.88.99.0/24      2024-12-09 09:39:29
+Linha 24: ;;; NIDB Testing
+Linha 25: 10   bogons                             198.18.0.0/15       2024-12-09 09:39:29
+Linha 26: ;;; Reservado - IANA - TestNet2
+Linha 27: 11   bogons                             198.51.100.0/24     2024-12-09 09:39:29
+Linha 28: ;;; Reservado - IANA - TestNet3
+Linha 29: 12   bogons                             203.0.113.0/24      2024-12-09 09:39:29
+Linha 30: 13 D back-to-home-lan-restricted-peers  192.168.216.15      2024-12-29 19:50:48
+Linha 31: ;;; cloud.mokrotik.com
+Linha 32: 14 D Cloud-Microtik                     103.224.182.241     2024-12-29 19:50:58
